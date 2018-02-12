@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AACBFF6203081DB00AB76DD /* AlamofireNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBFF5203081DB00AB76DD /* AlamofireNetwork.swift */; };
+		2AACBFF8203081F600AB76DD /* NativeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBFF7203081F600AB76DD /* NativeNetwork.swift */; };
 		2AC8517D201C7D7200CB2E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8517C201C7D7200CB2E4D /* AppDelegate.swift */; };
 		2AC8517F201C7D7200CB2E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8517E201C7D7200CB2E4D /* ViewController.swift */; };
 		2AC85182201C7D7200CB2E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC85180201C7D7200CB2E4D /* Main.storyboard */; };
 		2AC85184201C7D7200CB2E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC85183201C7D7200CB2E4D /* Assets.xcassets */; };
 		2AC85187201C7D7200CB2E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC85185201C7D7200CB2E4D /* LaunchScreen.storyboard */; };
 		2AE548CB203059730032E039 /* AlamofireTodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE548CA203059730032E039 /* AlamofireTodoRouter.swift */; };
+		2AE548CD203075180032E039 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE548CC203075180032E039 /* Todo.swift */; };
 		418DB2096F034F1828D8CC0B /* Pods_Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DCF3E70118B63CFCA34C4 /* Pods_Networking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AACBFF5203081DB00AB76DD /* AlamofireNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetwork.swift; sourceTree = "<group>"; };
+		2AACBFF7203081F600AB76DD /* NativeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeNetwork.swift; sourceTree = "<group>"; };
 		2AC85179201C7D7200CB2E4D /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC8517C201C7D7200CB2E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC8517E201C7D7200CB2E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +30,7 @@
 		2AC85186201C7D7200CB2E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC85188201C7D7200CB2E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE548CA203059730032E039 /* AlamofireTodoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireTodoRouter.swift; sourceTree = "<group>"; };
+		2AE548CC203075180032E039 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		2F7DCF3E70118B63CFCA34C4 /* Pods_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF8CAE828CF1A79077AC9CD /* Pods-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Networking/Pods-Networking.release.xcconfig"; sourceTree = "<group>"; };
 		F8C2940F48B84D84F095B626 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2AACBFF92030840300AB76DD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBFF5203081DB00AB76DD /* AlamofireNetwork.swift */,
+				2AACBFF7203081F600AB76DD /* NativeNetwork.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		2AC85170201C7D7200CB2E4D = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +89,9 @@
 			children = (
 				2AC8517C201C7D7200CB2E4D /* AppDelegate.swift */,
 				2AC8517E201C7D7200CB2E4D /* ViewController.swift */,
+				2AACBFF92030840300AB76DD /* Networking */,
 				2AE548CA203059730032E039 /* AlamofireTodoRouter.swift */,
+				2AE548CC203075180032E039 /* Todo.swift */,
 				2AC85180201C7D7200CB2E4D /* Main.storyboard */,
 				2AC85183201C7D7200CB2E4D /* Assets.xcassets */,
 				2AC85185201C7D7200CB2E4D /* LaunchScreen.storyboard */,
@@ -221,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC8517F201C7D7200CB2E4D /* ViewController.swift in Sources */,
+				2AACBFF8203081F600AB76DD /* NativeNetwork.swift in Sources */,
+				2AACBFF6203081DB00AB76DD /* AlamofireNetwork.swift in Sources */,
 				2AC8517D201C7D7200CB2E4D /* AppDelegate.swift in Sources */,
 				2AE548CB203059730032E039 /* AlamofireTodoRouter.swift in Sources */,
+				2AE548CD203075180032E039 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
